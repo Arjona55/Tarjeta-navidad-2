@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Feliz Navidad</title>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="Navidad.css">
+        </head>
+        <body>
+            <header>
+                <img src="Sant josep obrer.png" width=100%>
+            </header>
+
+            <main>
+                <div id="poema">
+                    Bajo cielos estrellados, frio cubre la tierra.<br>
+                    Luces destellan, alegria se esparce por doquier.<br>
+                    Canticos resuenan, anunciando la Navidad.<br><br><br>
+
+                    En la sala, fuego crepita, calor y risas se entrelazan.<br>
+                    Regalos aguardan, secretos en papeles de colores.<br>
+                    El arbol, testigo silente, resplandece con fulgor.<br><br><br>
+
+                    Familias se reunen, abrazos llenan el aire.<br>
+                    Noche de magia, donde suenos se hacen presentes.<br>
+                    Que esta Navidad, en corazones perdure su esplendor.<br>
+                </div>
+                <div id="santa">
+                    <img src="giphy.gif">
+                </div>
+                
+            </main>
+            <audio id="musica" autoplay loop>
+                <source src="enchanted-chimes-177906.mp3" type="audio/mp3">
+              </audio>
+              <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                  var audio = document.getElementById('musica');
+                  audio.volume = 1; // Puedes ajustar el volumen según tus preferencias
+                });
+              </script>
+        </body>
+    </html>

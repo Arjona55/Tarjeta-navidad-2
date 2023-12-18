@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'navidad';
+    src: url(Fuentes/snow-for-santa/SnowForSanta.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'navidad';
+    color: white;
+    font-size: 23px;
+}
+
+
+.parallax{
+    height: 400px;
+    width: 100%;
+    background-image: url(Sant\ josep\ obrer.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(to bottom,  rgb(255, 254, 254) 20%, rgba(236,138,131,255) 80%);
+}
+
+main{
+    display:flex;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    align-items: center;
+}
+
+#poema{
+    padding-left: 100px;
+}
+
+#santa{
+    margin-left: 20px;
+}
